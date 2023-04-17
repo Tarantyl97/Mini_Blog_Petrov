@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-html {
+/* html {
     width: 1152px;
     height: 1992px;
     margin: auto;
     position: relative;
-}
-
-/* @media screen and (min-width: 600px) { */
-   /* body {width: 1280px;} */
-/* } */
+} */    
 
 body {
     margin: 0 auto;
@@ -592,8 +588,6 @@ body {
     border-radius: 5px;
 }
 
-
-
 .footer__container6 {
     max-width: 1200px;
     margin: 0 auto;
@@ -610,7 +604,7 @@ body {
 }
 
 .footer__line {
-    width: 1152.01;
+    width: 1152.01px;
     height: 1px;
     top: 1913px;
     right: 3.99px;
@@ -741,3 +735,206 @@ margin: 0 auto;
     background-image: url(../images/Vector2.svg);
     cursor: pointer;
 }
+
+@media screen and (max-width: 376px) { 
+   body {
+    width: 375px;
+    margin: 10px;
+    }
+
+    .header {
+        height: auto;
+        margin: 10px;
+    }
+
+    .header_nav {
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header_socials {
+        display: flex;
+
+    }
+
+    .header_socials a {
+        padding: 5px;
+    }
+
+    .header_search {
+        display: none;
+    }
+
+    .container1 {
+        width: 375px;
+    }
+
+    .container1__logo-1 {
+        position: inherit;
+        width: auto;
+    }
+
+    .container1__main {
+        left: 0;
+        right: 0;
+        background-color: rgb(255 255 255 / 70%);;
+    }
+
+    .container1__paragraph {
+        left: 0;
+        right: 0;
+        background-color: rgb(255 255 255 / 70%);;
+    }
+
+    .container2 {
+        width: 375px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .container2__image {
+        width: 65%;
+        height: 50%;
+        position: inherit;
+    }
+
+    .container2__main {
+        position: inherit;
+    }
+
+    .container2__p {
+        position: inherit;
+        width: auto;
+    }
+    .container2__a-1 {
+        position: inherit;
+    }
+
+    .container2__a-2 {
+        position: inherit;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .container4 {
+        width: 375px;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .container4__image {
+        position: inherit;
+        width: 50%;
+        height: 50%;
+        align-self: center;
+    }
+
+    .container4__main {
+        position: inherit;
+        width: auto;
+        height: auto;
+        padding: 5px;
+    }
+
+    .container4__paragraph {
+        display: none;
+        width: auto;
+        height: auto;
+    }
+
+    .footer__line {
+        display: none;
+    }
+    
+    .container4__a-1 {
+        position: inherit;
+        width: auto;
+        height: auto;
+    }
+
+    .container4__a-2 {
+        position: inherit;
+        width: auto;
+        height: auto;
+    }
+
+    .container5__button {
+        position: inherit;
+        width: 375px;
+        justify-content: center;
+        margin: 10px 0;
+
+    }
+
+    .container5__button-a {
+        text-align: center;
+        width: 375px;
+        display: block;
+    }
+
+    .footer__container6 {
+        width: 375px;
+        max-width: none;
+        height: auto;
+        position: inherit;
+        margin: 10px 0  ;
+        padding: 0;
+    }
+
+    .footer__container6_socials {
+        display: flex;
+
+    }
+
+    .footer__container6_socials a {
+        padding: 5px;
+    }
+
+    .mainimage__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container7 {
+        width: 375px;
+    }
+
+    .container7__writter {
+        position: inherit;
+    }
+    
+    .container7__date {
+        position: inherit;
+    }
+
+    .details__line {
+        position: inherit;
+        width: auto;
+    }
+
+    .container8 {
+        position: inherit;
+        width: auto;
+    }
+
+    .button2__button {
+        position: inherit;
+    }
+    
+    .container7__maintext {
+        position: inherit;
+        width: auto;
+        height: auto;
+    }
+ }
